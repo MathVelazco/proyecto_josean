@@ -2,19 +2,33 @@
       font-family: "Stack Sans Headline", sans-serif;
 
 } 
-
+/* Header */
 .navbar {
     z-index: 1020;
     position: fixed; 
     top: 0;         
-    left: 0;        
+    left: 0;     
+    background-color:aquamarine   
+
+}
+.logotipo {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-/* Header *
-}
+
 
 /* Body */
+.container {
+ 
+      background-color:antiquewhite
+}
 
+.texto-contenedor{
+    margin-right: 2rem;
+    text-align: justify;
+}
     
 /* FOOTER  */
 .logosfooter{

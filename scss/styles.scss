@@ -1,10 +1,12 @@
 // 1. Variables
-$color-principal: #3a5a40; // Un verde naturaleza (acorde a su estilo)
+$color-principal: #3a5a40; 
 $color-texto: #333333;
 $color-fondo: #f8f9fa;
 $fuente-titulos: 'Stack Sans Headline', sans-serif;
 $fuente-cuerpo: 'Arimo', sans-serif;
 $transicion: all 0.3s ease;
+
+
 
 // 2. Mixins
 @mixin flex-center {

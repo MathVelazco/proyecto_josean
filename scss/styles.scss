@@ -8,6 +8,7 @@ $transicion: all 0.3s ease;
 
 
 
+
 // 2. Mixins
 @mixin flex-center {
   display: flex;
@@ -48,12 +49,16 @@ h1, .display-4 {
   }
 }
 
+
+
 // Contenedor de texto
 .texto-contenedor {
   line-height: 1.8;
   text-align: justify;
   font-size: 1.1rem;
 }
+
+
 
 // Footer
 footer {
@@ -72,6 +77,32 @@ footer {
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+}
+
+.card-musica {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: $transicion;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .card-body {
+    text-align: center;
+
+    .card-title {
+      font-family: $fuente-titulos;
+      color: $color-principal;
+      font-weight: 600;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: $color-texto;
     }
   }
 }

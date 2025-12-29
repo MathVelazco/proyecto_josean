@@ -51,4 +51,26 @@ footer .footer .nav-link:hover {
   text-decoration: underline;
 }
 
+.card-musica {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.card-musica:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-musica .card-body {
+  text-align: center;
+}
+.card-musica .card-body .card-title {
+  font-family: "Stack Sans Headline", sans-serif;
+  color: #3a5a40;
+  font-weight: 600;
+}
+.card-musica .card-body .card-text {
+  font-size: 1rem;
+  color: #333333;
+}
+
 /*# sourceMappingURL=styles.css.map */

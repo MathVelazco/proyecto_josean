@@ -82,7 +82,7 @@ footer .footer .nav-link:hover {
 }
 
 .card-img-top {
-  aspect-ratio: 1 / 1; /* Hace que las portadas sean siempre cuadradas */
+  aspect-ratio: 1 / 1; 
   object-fit: cover;
 }
 
@@ -174,14 +174,14 @@ h1.display-4 {
 /* Estilo específico para la mini bio */
 .texto-contenedor {
   font-family: "Petit Formal Script", cursive !important; /* Forzamos el uso de esta fuente */
-  font-size: 1.25rem; /* Un poco más grande para facilitar la lectura */
-  line-height: 2;    /* Más espacio entre líneas para que no se amontone la caligrafía */
+  font-size: 1.25rem; 
+  line-height: 2;    
   color: #444444;
-  text-align: left;  /* La cursiva se lee mejor alineada a la izquierda que justificada */
+  text-align: left;  
   margin-top: 1.5rem;
 }
 
-/* Si quieres que los párrafos internos también la hereden */
+
 .texto-contenedor p {
   font-family: "Petit Formal Script", cursive;
   margin-bottom: 1.2rem;
